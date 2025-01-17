@@ -7,26 +7,64 @@
 </head>
 <body>
     <style>
-        label {
+        body{
                 
                 margin-bottom: 10px; 
                 font-size: 15px; 
+                background-color: skyblue;
 
             }
        
     </style>
     <form>
     <label for="name">Name:</label>
-    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+    <input type="text" name="name" id="name" placeholder="Enter your First Name" required>
     <br><br>
 
     <label for="name">Middle Name:</label>
-    <input type="text" age="age" id="age" placeholder="Enter your age" required>
+    <input type="text" age="age" id="age" placeholder="Enter your Middle Name" required>
     <br><br>
 
-    <label for="name">Middle Name:</label>
-    <input type="text" age="age" id="age" placeholder="Enter your age" required>
+    <label for="name">Last Name:</label>
+    <input type="text" age="age" id="age" placeholder="Enter your Last Name" required>
+    <br><br>
+
+    <label for="Course">Course</label>
+    <select name="" id="">
+   <option value="BSIT">BSIT</option>
+   <option value="">BSCS</option>
+   <option value="">BLIS</option>
+   <option value="">BSIS</option>
+   </select>
+    <br>
+    <label for="Gender">Gender: </label>
+    <br>
+        <input type="radio" name="gender" value="male" required> Male
+    <br>
+        <input type="radio" name="gender" value="male" required> Female
+   
+    <br>
+        <input type="radio" name="gender" value=""> Other
     <br><br>
     </form>
+    <label for="">Phone Number</label>
+    <input type="number" name="phone" id="phone" placeholder="+91" style="width: 35px;">
+    <input type="number" placeholder="Enter number">
+    <br><br>
+
+    <label for="Address">Address:</label><br>
+   <textarea name="" id="" style="width: 500px; height: 70px;"></textarea>
+    <br><br>
+
+    <label for="">Email:</label>
+        <input type="text" name="" id="">
+    <br>
+    <label for="">Password:</label>
+        <input type="password" name="" id="">
+    <br>
+        <label for="">Re-type Password:</label>
+        <input type="password" name="" id="">
+    <br><br>
+    <input type="submit">
 </body>
 </html>
